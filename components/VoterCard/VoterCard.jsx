@@ -39,10 +39,6 @@ const VoterCard = () => {
     if (confirmVote) {
         setVoteCast(true);
         setConfirmedCandidate(selectedCandidate);
-    //   setTimeout(() => {
-    //     setVoteCast(true);
-    //     setConfirmedCandidate(selectedCandidate);
-    //   }, 1000);
     }
   };
 
